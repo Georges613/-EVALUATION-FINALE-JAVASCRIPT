@@ -1,0 +1,72 @@
+:root{
+    --primary-ad-color: #b11313;
+    --black-ad-color: #000000;
+    --white-ad-color: #ffffff;
+    --blue-color: #19587d;
+    --marron-color:#0D0E09;
+
+}
+@font-face {
+    font-family: "Bold";
+    src: url("Rajdhani-Bold.ttf");
+}
+.Header{
+    background: url(/Illustrations/Game/Batgame1.png);
+    background-size: cover;
+    height: 100vh;
+}
+.nav-item a{
+    color: #ffff;
+}
+.medias{
+    list-style-type: none;
+    position: absolute;
+    right: 3.3%;
+    top: 30%;
+    transform: translate(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bulle{
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    position: relative;
+    background-color: #0000;
+}
+#Special{
+    width: 20px;
+    margin-left: 43px;
+}
+@font-face {
+    font-family: "Regular";
+    src: url("/Rajdhani-Bold.ttf");
+}
+#h1{
+   color: #ffffff;
+   font-family: "Regular" !important;
+   font-size: 36px;
+   padding-top: 15%;
+   padding-left: 8%;
+}
+#firstQ{
+    background-color: #c4c4c4;
+    width: 45%;
+}
+#titre{
+    font-family: "Regular" !important;
+    font-size: 36px;
+}
+#foot{
+    background-color: #000000;
+    color: #ffff;
+    padding-top: 7%;
+}
+#icon span{
+    padding-left: 2%;
+}
+.minMax{
+    font-size: 12px;
+}

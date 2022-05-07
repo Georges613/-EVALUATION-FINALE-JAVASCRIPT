@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@font-face {
+    font-family: "Bold";
+    src: url("Rajdhani-Bold.ttf");
+}
+@font-face {
+    font-family: "light";
+    src: url("/Rajdhani-Light.ttf");
+}
+@font-face {
+    font-family: "Medium";
+    src: url("/Rajdhani-Medium.ttf");
+}
+@font-face {
+    font-family: "Regular";
+    src: url("/Rajdhani-Regular.ttf");
+}
+@font-face {
+    font-family: "SemiBold";
+    src: url("/Rajdhani-SemiBold.ttf");
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --primary-ad-color: #b11313;
+    --black-ad-color: #000000;
+    --white-ad-color: #ffffff;
+    --blue-color: #19587d;
+    --marron-color:#0D0E09;
+
+}
+.Header{
+    background: url(/Illustrations/Home/Bathome1.png);
+    background-size: cover;
+    height: 100vh;
+}
+.sous{
+    color:#ffff;
+    text-align: center;
+    padding: 15% 30% 0% 30%;
+}
+p{
+    font-family: "Regular" !important;
+    font-size: 22px;
+}
+.nav-item a{
+    color: #ffff;
+}
+.btn{
+    font-family: "Medium" !important;
+    font-size: 20px;
+    color: #ffff;
+    background-image: linear-gradient(to right, #eddebf8c, #0f5f8d57);
+    
+}
+h2{
+    font-family: "Medium" !important;
+}
+.medias{
+    list-style-type: none;
+    position: absolute;
+    right: 3.3%;
+    top: 30%;
+    transform: translate(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bulle{
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    position: relative;
+    background-color: #0000;
+}
+.logo-medias{
+    width: px;
+    height:px ;
+}
+#Special{
+    width: 20px;
+    margin-left: 43px;
+}
+::placeholder{
+    color: var(--white-ad-color);
+}
+.bg{
+    padding-top: 8%;
+}
+.min{
+    font-size: x-small;
+    padding-bottom: 20px;
+}
+#card{
+    background: linear-gradient(to right, #d1c6ae,#19587D);
+    border: 1px solid #e9ceceaf;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#fleche{
+    width: 60px;
+    height: 60px;
+    padding: 0px 10px 0px 20px;
+    margin-top: 6%;
+}
+#news,
+#select,
+#mailto{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #d1c6ae;
+    border-bottom-left-radius: none;
+    border-bottom-right-radius: none;
+    background-color: transparent;
+}
+.confirm{
+    background: linear-gradient(to right, #eddebf,#890008);
+    width: 200px;
+    height: 50px;
+}
+#letter{
+    background: linear-gradient(to right, #EDDEBF,#19587D);
+    color: var(--white-ad-color);
+    padding: 30px;
+}
+#foot{
+    background-color: #000000;
+    color: var(--white-ad-color);
+    padding: 50px;
+}
+/* Boulle */
+.dot{
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #19587D;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active, .dot:hover{
+    background-color: #04a1fb;
+}
+.minMax{
+    padding-top: 5%;
+}
